@@ -1,0 +1,105 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-color: rgb(18, 24, 39);
+    color: aliceblue;
+    padding: 30px;
+    text-align: center;
+}
+body{
+    margin: 0px;
+}
+.navigation ul{
+    list-style-type: none;
+    background-color: rgb(20, 17, 17);
+    padding: 15px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navigation a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+.navigation a:hover{
+    background-color: lightseagreen;
+    color: black;
+}
+.navigation li{
+    float: left;
+}
+form {
+    text-align: center;
+    float: right;
+    top:120px;
+    margin-top: 20%;
+    margin-left: 60%;
+    margin-right: auto;
+    -ms-wrap-flow: both;
+    -ms-wrap-margin: 10px;
+    position: absolute;
+}
+h4 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    float: right;
+    top:120px;
+    margin-top: 15%;
+    margin-left: 60%;
+    margin-right: auto;
+    -ms-wrap-flow: both;
+    -ms-wrap-margin: 10px;
+    position: absolute;
+}
+#orderedList li{
+    list-style-type: none;
+}
+h1, h2, h3{
+    text-align: center;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.photos img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+.imageName {
+    width: 30%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    margin-left: 10%;
+    margin-right: auto;
+}
+.indexText{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 30px;
+    margin-top: 47%;
+    margin-left: auto;
+    margin-right: 10%;
+    -ms-wrap-flow: both;
+    -ms-wrap-margin: 0;
+    position: absolute;
+    right: 0;
+    top:120px;
+}
